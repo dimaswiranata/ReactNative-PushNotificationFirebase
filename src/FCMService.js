@@ -26,7 +26,8 @@ class FCMService {
           // User doesn't have permission
           this.requestPermission(onRegister)
         }
-      }).catch(error => {
+      })
+      .catch(error => {
         console.log("[FCMService] Permission rejected ", error)
       })
   }
@@ -58,10 +59,11 @@ class FCMService {
 
   deleteToken = () => {
     console.log("[FCMService] deleteToken ")
-    messaging().deleteToken()
-    .catch(error => {
-      console.log("[FCMService] Delete token error ", error)
-    })
+    messaging()
+      .deleteToken()
+      .catch(error => {
+        console.log("[FCMService] Delete token error ", error)
+      })
   }
 
   createNotificationListeners = (onRegister, onNotification, onOpenNotification) => {
@@ -109,7 +111,6 @@ class FCMService {
       console.log("[FCMService] New token refresh: ", fcmToken)
       onRegister(fcmToken)
     })
-
   }
 
   unRegister = () => {
