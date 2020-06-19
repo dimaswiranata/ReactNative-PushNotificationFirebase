@@ -1,0 +1,660 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:1:1-27:12
+MERGED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-45:12
+MERGED from [:react-native-firebase_app] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-push-notification] C:\Users\Wiranata\push_notification_firebase\node_modules\react-native-push-notification\android\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.62.2] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\6b800991ef26d321bc65002004a0f5c5\jetified-react-native-0.62.2\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\305f7d781fe4651e8359fc04ca384251\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\27e4ba1a43ffa26d06bd31bab4b7560e\jetified-firebase-messaging-20.2.0\AndroidManifest.xml:17:1-45:12
+MERGED from [com.google.firebase:firebase-core:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\504ad8ee6e2171c71cbdbc42e3b05a4d\firebase-core-17.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\9430e283235ff7db28f66f8a46649560\firebase-analytics-17.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a51806d0e59ff9433870568f30944c6a\play-services-measurement-api-17.4.1\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\bca08b242e606c7f7776c70f5e721733\play-services-measurement-sdk-17.4.1\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d4b5f87c04dd5cf51117419c96640aab\play-services-measurement-impl-17.4.1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\aa051279bcd1a3ccce02e7f639eb644b\play-services-stats-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\f657f895cb0ad5ee6ce7b4805207af07\firebase-datatransport-17.0.3\AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-installations:16.3.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\24e78a539c56c8a186da431a344b5f00\firebase-installations-16.3.1\AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\4bb08556828d6510ba5448abefb31aa9\jetified-firebase-common-19.3.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\ceeb466ad379cb999bec384e2a30ff65\firebase-installations-interop-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\935eb07c8901eb6504b7913381052582\firebase-iid-interop-17.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a8808dfeda94c47fb6332865b0619b8e\play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7f76f57911a135d7dd2e1ba276f4dc40\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\4b84a4234c1fa000d417bdc6d89832cf\firebase-measurement-connector-18.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\37a464c71da2b1997e1c2dead7f7f311\play-services-measurement-sdk-api-17.4.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\9368fdefc0668b22f58fd05b26c2efc8\play-services-measurement-base-17.4.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\8e640f3363916e1228fe1fd1f1055113\play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\23557b18815ee0108ed4e475a6897bb8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\bebe05c81ffc609d1166ee477695ad53\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\03de3aa98a86299f7c720a997bd79467\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\390f9a5474fcc7bcc9f7e4e8e8d96ab5\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a1d64627529d8d421c0b27e7fdd4a3e1\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\bbf0e9fab1af79c79ac1770ffe9175cc\android-jsc-r245459\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\579aadedb57581780ee73635c0aef2f4\transport-backend-cct-2.2.0\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7d2291c29c7a6f87a454b865dc2f1866\transport-runtime-2.2.0\AndroidManifest.xml:15:1-41:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7e45cf4243ea5e233aa8231abdab37be\fresco-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\54f47e8680bda1b98ae38fd8f8ab7dbd\imagepipeline-okhttp3-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\c8ba689a53df9ce7251ab27492d21fe5\drawee-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\90de6959c0ffe1596e5b5e53f4273045\nativeimagefilters-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\946cd94b9accf91d88a597a403e45ec7\imagepipeline-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a4133f6e656b087d4b969c7b25798bd8\nativeimagetranscoder-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\b48f4ca811610c1d9593d1c0715cd3b3\imagepipeline-base-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.8.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\5a3aa94c06ae5c4776b884d2cf32296f\soloader-0.8.0\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\c1773e1998cf3a2431c84f35141c1764\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\ca32a7e43efd893ebdd8f297cb4804c2\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\f2b43b3e7e47a96d6e6b1020e4c2a2ca\vectordrawable-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\6beb4dec599646a76945b0755d21940b\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d48ca5706e309d13658a7d0e88faa174\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\9f9402a4d38f66542e51f69aa98fba93\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\8e2bb978031cecd5189946981cf8314b\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a798813f6c6fedecac9a727ec3fb5082\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\e90a5639643478a391e19a3474be22cc\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\ccc22d6fb75e9e243cdd92201927fe84\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\90c8d6789fd66671335abb42f7646640\core-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\8040c7858de9f35606370c9469b51ffe\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\62532a1c33fa0c97df64d0a54c93171c\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\e0427174069096ea25acab197509fdd1\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\ebd42090b004afebb89ca27d2e93f839\firebase-encoders-json-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\1b11c39f90755cd03733f014d4100704\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\75d8a9c96602bb8b1265f478d92cd410\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\336ddbe02b7166af49e68c2931e4cf31\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\256dfdc92da09b6ad186b884f57d44e3\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\b14f3a4338e5e1f8e43d8225164aa3e5\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\f74ebfa5b28422703001a3a07e1d3cf8\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\fb532574b956b34bc2dab12de6502519\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\ed784e9cc6d9c22090eb9cb003e47107\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\490196c73d7d355edf6256c5fa5d120c\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:2:1-52:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\2ca4630f08c72783fbe73180df116372\jetified-fbcore-2.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:annotation:0.8.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\64b0580bbd835378fb7d8f2c79ceda85\annotation-0.8.2\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\492fc5c27713717c844f92eef06c68a0\transport-api-2.2.0\AndroidManifest.xml:15:1-22:12
+INJECTED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:1:1-27:12
+	package
+		ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:2:3-43
+		INJECTED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:1:1-27:12
+		INJECTED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:1:1-27:12
+		INJECTED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a51806d0e59ff9433870568f30944c6a\play-services-measurement-api-17.4.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a51806d0e59ff9433870568f30944c6a\play-services-measurement-api-17.4.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d4b5f87c04dd5cf51117419c96640aab\play-services-measurement-impl-17.4.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d4b5f87c04dd5cf51117419c96640aab\play-services-measurement-impl-17.4.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\24e78a539c56c8a186da431a344b5f00\firebase-installations-16.3.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\24e78a539c56c8a186da431a344b5f00\firebase-installations-16.3.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\37a464c71da2b1997e1c2dead7f7f311\play-services-measurement-sdk-api-17.4.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\37a464c71da2b1997e1c2dead7f7f311\play-services-measurement-sdk-api-17.4.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\579aadedb57581780ee73635c0aef2f4\transport-backend-cct-2.2.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\579aadedb57581780ee73635c0aef2f4\transport-backend-cct-2.2.0\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:6:5-25:19
+MERGED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:15:5-43:19
+MERGED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:15:5-43:19
+MERGED from [com.facebook.react:react-native:0.62.2] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\6b800991ef26d321bc65002004a0f5c5\jetified-react-native-0.62.2\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.62.2] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\6b800991ef26d321bc65002004a0f5c5\jetified-react-native-0.62.2\AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-messaging:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\27e4ba1a43ffa26d06bd31bab4b7560e\jetified-firebase-messaging-20.2.0\AndroidManifest.xml:22:5-43:19
+MERGED from [com.google.firebase:firebase-messaging:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\27e4ba1a43ffa26d06bd31bab4b7560e\jetified-firebase-messaging-20.2.0\AndroidManifest.xml:22:5-43:19
+MERGED from [com.google.firebase:firebase-core:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\504ad8ee6e2171c71cbdbc42e3b05a4d\firebase-core-17.4.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\504ad8ee6e2171c71cbdbc42e3b05a4d\firebase-core-17.4.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\9430e283235ff7db28f66f8a46649560\firebase-analytics-17.4.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\9430e283235ff7db28f66f8a46649560\firebase-analytics-17.4.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a51806d0e59ff9433870568f30944c6a\play-services-measurement-api-17.4.1\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a51806d0e59ff9433870568f30944c6a\play-services-measurement-api-17.4.1\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\bca08b242e606c7f7776c70f5e721733\play-services-measurement-sdk-17.4.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\bca08b242e606c7f7776c70f5e721733\play-services-measurement-sdk-17.4.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d4b5f87c04dd5cf51117419c96640aab\play-services-measurement-impl-17.4.1\AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d4b5f87c04dd5cf51117419c96640aab\play-services-measurement-impl-17.4.1\AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\aa051279bcd1a3ccce02e7f639eb644b\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\aa051279bcd1a3ccce02e7f639eb644b\play-services-stats-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\f657f895cb0ad5ee6ce7b4805207af07\firebase-datatransport-17.0.3\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\f657f895cb0ad5ee6ce7b4805207af07\firebase-datatransport-17.0.3\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-installations:16.3.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\24e78a539c56c8a186da431a344b5f00\firebase-installations-16.3.1\AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:16.3.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\24e78a539c56c8a186da431a344b5f00\firebase-installations-16.3.1\AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\4bb08556828d6510ba5448abefb31aa9\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\4bb08556828d6510ba5448abefb31aa9\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\935eb07c8901eb6504b7913381052582\firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\935eb07c8901eb6504b7913381052582\firebase-iid-interop-17.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a8808dfeda94c47fb6332865b0619b8e\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a8808dfeda94c47fb6332865b0619b8e\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7f76f57911a135d7dd2e1ba276f4dc40\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7f76f57911a135d7dd2e1ba276f4dc40\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\4b84a4234c1fa000d417bdc6d89832cf\firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\4b84a4234c1fa000d417bdc6d89832cf\firebase-measurement-connector-18.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\9368fdefc0668b22f58fd05b26c2efc8\play-services-measurement-base-17.4.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\9368fdefc0668b22f58fd05b26c2efc8\play-services-measurement-base-17.4.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\8e640f3363916e1228fe1fd1f1055113\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\8e640f3363916e1228fe1fd1f1055113\play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\23557b18815ee0108ed4e475a6897bb8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\23557b18815ee0108ed4e475a6897bb8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\579aadedb57581780ee73635c0aef2f4\transport-backend-cct-2.2.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\579aadedb57581780ee73635c0aef2f4\transport-backend-cct-2.2.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7d2291c29c7a6f87a454b865dc2f1866\transport-runtime-2.2.0\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7d2291c29c7a6f87a454b865dc2f1866\transport-runtime-2.2.0\AndroidManifest.xml:25:5-39:19
+MERGED from [com.facebook.soloader:soloader:0.8.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\5a3aa94c06ae5c4776b884d2cf32296f\soloader-0.8.0\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.8.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\5a3aa94c06ae5c4776b884d2cf32296f\soloader-0.8.0\AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.0.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\90c8d6789fd66671335abb42f7646640\core-1.0.1\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\90c8d6789fd66671335abb42f7646640\core-1.0.1\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\8040c7858de9f35606370c9469b51ffe\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\8040c7858de9f35606370c9469b51ffe\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.facebook.soloader:annotation:0.8.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\64b0580bbd835378fb7d8f2c79ceda85\annotation-0.8.2\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:annotation:0.8.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\64b0580bbd835378fb7d8f2c79ceda85\annotation-0.8.2\AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\90c8d6789fd66671335abb42f7646640\core-1.0.1\AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:8:7-39
+	android:roundIcon
+		ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:10:7-52
+	android:icon
+		ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:9:7-41
+	android:allowBackup
+		ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:7:7-38
+activity#com.push_notification_firebase.MainActivity
+ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:13:7-23:18
+	android:label
+		ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:15:9-41
+	android:launchMode
+		ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:17:9-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:18:9-51
+	android:configChanges
+		ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:16:9-86
+	android:name
+		ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:19:9-22:25
+action#android.intent.action.MAIN
+ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:20:13-65
+	android:name
+		ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:20:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:21:13-73
+	android:name
+		ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:21:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:24:7-84
+	android:name
+		ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml:24:17-81
+uses-sdk
+INJECTED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_app] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_app] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-push-notification] C:\Users\Wiranata\push_notification_firebase\node_modules\react-native-push-notification\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-push-notification] C:\Users\Wiranata\push_notification_firebase\node_modules\react-native-push-notification\android\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.62.2] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\6b800991ef26d321bc65002004a0f5c5\jetified-react-native-0.62.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.62.2] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\6b800991ef26d321bc65002004a0f5c5\jetified-react-native-0.62.2\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\305f7d781fe4651e8359fc04ca384251\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\305f7d781fe4651e8359fc04ca384251\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\27e4ba1a43ffa26d06bd31bab4b7560e\jetified-firebase-messaging-20.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\27e4ba1a43ffa26d06bd31bab4b7560e\jetified-firebase-messaging-20.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\504ad8ee6e2171c71cbdbc42e3b05a4d\firebase-core-17.4.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\504ad8ee6e2171c71cbdbc42e3b05a4d\firebase-core-17.4.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\9430e283235ff7db28f66f8a46649560\firebase-analytics-17.4.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\9430e283235ff7db28f66f8a46649560\firebase-analytics-17.4.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a51806d0e59ff9433870568f30944c6a\play-services-measurement-api-17.4.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a51806d0e59ff9433870568f30944c6a\play-services-measurement-api-17.4.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\bca08b242e606c7f7776c70f5e721733\play-services-measurement-sdk-17.4.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\bca08b242e606c7f7776c70f5e721733\play-services-measurement-sdk-17.4.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d4b5f87c04dd5cf51117419c96640aab\play-services-measurement-impl-17.4.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d4b5f87c04dd5cf51117419c96640aab\play-services-measurement-impl-17.4.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\aa051279bcd1a3ccce02e7f639eb644b\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\aa051279bcd1a3ccce02e7f639eb644b\play-services-stats-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\f657f895cb0ad5ee6ce7b4805207af07\firebase-datatransport-17.0.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\f657f895cb0ad5ee6ce7b4805207af07\firebase-datatransport-17.0.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations:16.3.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\24e78a539c56c8a186da431a344b5f00\firebase-installations-16.3.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:16.3.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\24e78a539c56c8a186da431a344b5f00\firebase-installations-16.3.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\4bb08556828d6510ba5448abefb31aa9\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\4bb08556828d6510ba5448abefb31aa9\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\ceeb466ad379cb999bec384e2a30ff65\firebase-installations-interop-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\ceeb466ad379cb999bec384e2a30ff65\firebase-installations-interop-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\935eb07c8901eb6504b7913381052582\firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\935eb07c8901eb6504b7913381052582\firebase-iid-interop-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a8808dfeda94c47fb6332865b0619b8e\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a8808dfeda94c47fb6332865b0619b8e\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7f76f57911a135d7dd2e1ba276f4dc40\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7f76f57911a135d7dd2e1ba276f4dc40\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\4b84a4234c1fa000d417bdc6d89832cf\firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\4b84a4234c1fa000d417bdc6d89832cf\firebase-measurement-connector-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\37a464c71da2b1997e1c2dead7f7f311\play-services-measurement-sdk-api-17.4.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\37a464c71da2b1997e1c2dead7f7f311\play-services-measurement-sdk-api-17.4.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\9368fdefc0668b22f58fd05b26c2efc8\play-services-measurement-base-17.4.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\9368fdefc0668b22f58fd05b26c2efc8\play-services-measurement-base-17.4.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\8e640f3363916e1228fe1fd1f1055113\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\8e640f3363916e1228fe1fd1f1055113\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\23557b18815ee0108ed4e475a6897bb8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\23557b18815ee0108ed4e475a6897bb8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\bebe05c81ffc609d1166ee477695ad53\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\bebe05c81ffc609d1166ee477695ad53\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\03de3aa98a86299f7c720a997bd79467\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\03de3aa98a86299f7c720a997bd79467\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\390f9a5474fcc7bcc9f7e4e8e8d96ab5\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\390f9a5474fcc7bcc9f7e4e8e8d96ab5\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a1d64627529d8d421c0b27e7fdd4a3e1\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a1d64627529d8d421c0b27e7fdd4a3e1\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\bbf0e9fab1af79c79ac1770ffe9175cc\android-jsc-r245459\AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\bbf0e9fab1af79c79ac1770ffe9175cc\android-jsc-r245459\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\579aadedb57581780ee73635c0aef2f4\transport-backend-cct-2.2.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\579aadedb57581780ee73635c0aef2f4\transport-backend-cct-2.2.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7d2291c29c7a6f87a454b865dc2f1866\transport-runtime-2.2.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7d2291c29c7a6f87a454b865dc2f1866\transport-runtime-2.2.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7e45cf4243ea5e233aa8231abdab37be\fresco-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7e45cf4243ea5e233aa8231abdab37be\fresco-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\54f47e8680bda1b98ae38fd8f8ab7dbd\imagepipeline-okhttp3-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\54f47e8680bda1b98ae38fd8f8ab7dbd\imagepipeline-okhttp3-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\c8ba689a53df9ce7251ab27492d21fe5\drawee-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\c8ba689a53df9ce7251ab27492d21fe5\drawee-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\90de6959c0ffe1596e5b5e53f4273045\nativeimagefilters-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\90de6959c0ffe1596e5b5e53f4273045\nativeimagefilters-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\946cd94b9accf91d88a597a403e45ec7\imagepipeline-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\946cd94b9accf91d88a597a403e45ec7\imagepipeline-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a4133f6e656b087d4b969c7b25798bd8\nativeimagetranscoder-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a4133f6e656b087d4b969c7b25798bd8\nativeimagetranscoder-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\b48f4ca811610c1d9593d1c0715cd3b3\imagepipeline-base-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\b48f4ca811610c1d9593d1c0715cd3b3\imagepipeline-base-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.8.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\5a3aa94c06ae5c4776b884d2cf32296f\soloader-0.8.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.8.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\5a3aa94c06ae5c4776b884d2cf32296f\soloader-0.8.0\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\c1773e1998cf3a2431c84f35141c1764\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\c1773e1998cf3a2431c84f35141c1764\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\ca32a7e43efd893ebdd8f297cb4804c2\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\ca32a7e43efd893ebdd8f297cb4804c2\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\f2b43b3e7e47a96d6e6b1020e4c2a2ca\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\f2b43b3e7e47a96d6e6b1020e4c2a2ca\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\6beb4dec599646a76945b0755d21940b\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\6beb4dec599646a76945b0755d21940b\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d48ca5706e309d13658a7d0e88faa174\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d48ca5706e309d13658a7d0e88faa174\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\9f9402a4d38f66542e51f69aa98fba93\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\9f9402a4d38f66542e51f69aa98fba93\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\8e2bb978031cecd5189946981cf8314b\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\8e2bb978031cecd5189946981cf8314b\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a798813f6c6fedecac9a727ec3fb5082\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a798813f6c6fedecac9a727ec3fb5082\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\e90a5639643478a391e19a3474be22cc\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\e90a5639643478a391e19a3474be22cc\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\ccc22d6fb75e9e243cdd92201927fe84\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\ccc22d6fb75e9e243cdd92201927fe84\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\90c8d6789fd66671335abb42f7646640\core-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\90c8d6789fd66671335abb42f7646640\core-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\8040c7858de9f35606370c9469b51ffe\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\8040c7858de9f35606370c9469b51ffe\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\62532a1c33fa0c97df64d0a54c93171c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\62532a1c33fa0c97df64d0a54c93171c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\e0427174069096ea25acab197509fdd1\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\e0427174069096ea25acab197509fdd1\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\ebd42090b004afebb89ca27d2e93f839\firebase-encoders-json-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\ebd42090b004afebb89ca27d2e93f839\firebase-encoders-json-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\1b11c39f90755cd03733f014d4100704\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\1b11c39f90755cd03733f014d4100704\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\75d8a9c96602bb8b1265f478d92cd410\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\75d8a9c96602bb8b1265f478d92cd410\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\336ddbe02b7166af49e68c2931e4cf31\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\336ddbe02b7166af49e68c2931e4cf31\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\256dfdc92da09b6ad186b884f57d44e3\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\256dfdc92da09b6ad186b884f57d44e3\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\b14f3a4338e5e1f8e43d8225164aa3e5\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\b14f3a4338e5e1f8e43d8225164aa3e5\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\f74ebfa5b28422703001a3a07e1d3cf8\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\f74ebfa5b28422703001a3a07e1d3cf8\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\fb532574b956b34bc2dab12de6502519\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\fb532574b956b34bc2dab12de6502519\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\ed784e9cc6d9c22090eb9cb003e47107\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\ed784e9cc6d9c22090eb9cb003e47107\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\490196c73d7d355edf6256c5fa5d120c\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\490196c73d7d355edf6256c5fa5d120c\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\2ca4630f08c72783fbe73180df116372\jetified-fbcore-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\2ca4630f08c72783fbe73180df116372\jetified-fbcore-2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:annotation:0.8.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\64b0580bbd835378fb7d8f2c79ceda85\annotation-0.8.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:annotation:0.8.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\64b0580bbd835378fb7d8f2c79ceda85\annotation-0.8.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\492fc5c27713717c844f92eef06c68a0\transport-api-2.2.0\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\492fc5c27713717c844f92eef06c68a0\transport-api-2.2.0\AndroidManifest.xml:18:5-20:41
+INJECTED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Wiranata\push_notification_firebase\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a51806d0e59ff9433870568f30944c6a\play-services-measurement-api-17.4.1\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a51806d0e59ff9433870568f30944c6a\play-services-measurement-api-17.4.1\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d4b5f87c04dd5cf51117419c96640aab\play-services-measurement-impl-17.4.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d4b5f87c04dd5cf51117419c96640aab\play-services-measurement-impl-17.4.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\37a464c71da2b1997e1c2dead7f7f311\play-services-measurement-sdk-api-17.4.1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\37a464c71da2b1997e1c2dead7f7f311\play-services-measurement-sdk-api-17.4.1\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a51806d0e59ff9433870568f30944c6a\play-services-measurement-api-17.4.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a51806d0e59ff9433870568f30944c6a\play-services-measurement-api-17.4.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d4b5f87c04dd5cf51117419c96640aab\play-services-measurement-impl-17.4.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d4b5f87c04dd5cf51117419c96640aab\play-services-measurement-impl-17.4.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\24e78a539c56c8a186da431a344b5f00\firebase-installations-16.3.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\24e78a539c56c8a186da431a344b5f00\firebase-installations-16.3.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\37a464c71da2b1997e1c2dead7f7f311\play-services-measurement-sdk-api-17.4.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\37a464c71da2b1997e1c2dead7f7f311\play-services-measurement-sdk-api-17.4.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\579aadedb57581780ee73635c0aef2f4\transport-backend-cct-2.2.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\579aadedb57581780ee73635c0aef2f4\transport-backend-cct-2.2.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7d2291c29c7a6f87a454b865dc2f1866\transport-runtime-2.2.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7d2291c29c7a6f87a454b865dc2f1866\transport-runtime-2.2.0\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:13:22-76
+service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService
+ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:16:9-111
+	android:name
+		ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:16:18-108
+service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
+ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:17:9-23:19
+	android:exported
+		ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:18:13-95
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:20:13-22:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:21:17-78
+	android:name
+		ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:21:25-75
+receiver#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver
+ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:25:9-32:20
+	android:exported
+		ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:28:13-73
+	android:name
+		ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:26:13-96
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:29:13-31:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:30:17-81
+	android:name
+		ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:30:25-78
+meta-data#firebase_messaging_auto_init_enabled
+ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:34:9-36:36
+	android:value
+		ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-33
+	android:name
+		ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-64
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:37:9-39:32
+	android:value
+		ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-29
+	android:name
+		ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-89
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:40:9-42:47
+	android:resource
+		ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-44
+	android:name
+		ADDED from [:react-native-firebase_messaging] C:\Users\Wiranata\push_notification_firebase\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\release\AndroidManifest.xml:41:13-84
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\27e4ba1a43ffa26d06bd31bab4b7560e\jetified-firebase-messaging-20.2.0\AndroidManifest.xml:28:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\27e4ba1a43ffa26d06bd31bab4b7560e\jetified-firebase-messaging-20.2.0\AndroidManifest.xml:31:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\27e4ba1a43ffa26d06bd31bab4b7560e\jetified-firebase-messaging-20.2.0\AndroidManifest.xml:30:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\27e4ba1a43ffa26d06bd31bab4b7560e\jetified-firebase-messaging-20.2.0\AndroidManifest.xml:29:13-82
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-messaging:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\27e4ba1a43ffa26d06bd31bab4b7560e\jetified-firebase-messaging-20.2.0\AndroidManifest.xml:36:9-42:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a51806d0e59ff9433870568f30944c6a\play-services-measurement-api-17.4.1\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a51806d0e59ff9433870568f30944c6a\play-services-measurement-api-17.4.1\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\f657f895cb0ad5ee6ce7b4805207af07\firebase-datatransport-17.0.3\AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\f657f895cb0ad5ee6ce7b4805207af07\firebase-datatransport-17.0.3\AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-installations:16.3.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\24e78a539c56c8a186da431a344b5f00\firebase-installations-16.3.1\AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:16.3.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\24e78a539c56c8a186da431a344b5f00\firebase-installations-16.3.1\AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\4bb08556828d6510ba5448abefb31aa9\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\4bb08556828d6510ba5448abefb31aa9\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\27e4ba1a43ffa26d06bd31bab4b7560e\jetified-firebase-messaging-20.2.0\AndroidManifest.xml:38:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\4bb08556828d6510ba5448abefb31aa9\jetified-firebase-common-19.3.0\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\4bb08556828d6510ba5448abefb31aa9\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\27e4ba1a43ffa26d06bd31bab4b7560e\jetified-firebase-messaging-20.2.0\AndroidManifest.xml:37:13-84
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\27e4ba1a43ffa26d06bd31bab4b7560e\jetified-firebase-messaging-20.2.0\AndroidManifest.xml:39:13-41:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\27e4ba1a43ffa26d06bd31bab4b7560e\jetified-firebase-messaging-20.2.0\AndroidManifest.xml:41:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\27e4ba1a43ffa26d06bd31bab4b7560e\jetified-firebase-messaging-20.2.0\AndroidManifest.xml:40:17-119
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a51806d0e59ff9433870568f30944c6a\play-services-measurement-api-17.4.1\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a51806d0e59ff9433870568f30944c6a\play-services-measurement-api-17.4.1\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a51806d0e59ff9433870568f30944c6a\play-services-measurement-api-17.4.1\AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d1e7de3d288601bb4f5d28ab0bdc1a98\firebase-iid-20.2.0\AndroidManifest.xml:38:13-78
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d4b5f87c04dd5cf51117419c96640aab\play-services-measurement-impl-17.4.1\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d4b5f87c04dd5cf51117419c96640aab\play-services-measurement-impl-17.4.1\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:40:13-87
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\f657f895cb0ad5ee6ce7b4805207af07\firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\f657f895cb0ad5ee6ce7b4805207af07\firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\f657f895cb0ad5ee6ce7b4805207af07\firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:16.3.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\24e78a539c56c8a186da431a344b5f00\firebase-installations-16.3.1\AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:16.3.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\24e78a539c56c8a186da431a344b5f00\firebase-installations-16.3.1\AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:16.3.1] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\24e78a539c56c8a186da431a344b5f00\firebase-installations-16.3.1\AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\4bb08556828d6510ba5448abefb31aa9\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\4bb08556828d6510ba5448abefb31aa9\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\4bb08556828d6510ba5448abefb31aa9\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\4bb08556828d6510ba5448abefb31aa9\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\4bb08556828d6510ba5448abefb31aa9\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a8808dfeda94c47fb6332865b0619b8e\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a8808dfeda94c47fb6332865b0619b8e\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a8808dfeda94c47fb6332865b0619b8e\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\a8808dfeda94c47fb6332865b0619b8e\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\23557b18815ee0108ed4e475a6897bb8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\23557b18815ee0108ed4e475a6897bb8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\23557b18815ee0108ed4e475a6897bb8\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\579aadedb57581780ee73635c0aef2f4\transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7d2291c29c7a6f87a454b865dc2f1866\transport-runtime-2.2.0\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7d2291c29c7a6f87a454b865dc2f1866\transport-runtime-2.2.0\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\579aadedb57581780ee73635c0aef2f4\transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\579aadedb57581780ee73635c0aef2f4\transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\579aadedb57581780ee73635c0aef2f4\transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\579aadedb57581780ee73635c0aef2f4\transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\579aadedb57581780ee73635c0aef2f4\transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7d2291c29c7a6f87a454b865dc2f1866\transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7d2291c29c7a6f87a454b865dc2f1866\transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7d2291c29c7a6f87a454b865dc2f1866\transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7d2291c29c7a6f87a454b865dc2f1866\transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7d2291c29c7a6f87a454b865dc2f1866\transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7d2291c29c7a6f87a454b865dc2f1866\transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\7d2291c29c7a6f87a454b865dc2f1866\transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] C:\Users\Wiranata\.gradle\caches\transforms-2\files-2.1\53aa768b46a0164a3050cc0a8b85f2ad\ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
